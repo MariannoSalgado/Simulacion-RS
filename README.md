@@ -1,13 +1,6 @@
 “Modelado de opiniones y su impacto en la generación de consensos y disensos en una plataforma de CrowdSourcing”
 
-
-Abstract
-  En nuestra sociedad fuertemente interconectada las personas expresan constantemente sus opiniones y están expuestos a las opiniones de otros, lo cual genera una dinámica de opiniones. En general se han explorado los fenómenos de dinámicas de opinión, votos e influencia social mediante simulaciones con modelos inspirados mayormente en las ciencias físicas con supuestos en general alejados de la realidad. Sin embargo, los mecanismos que subyacen a la dinámica de opiniones en contextos digitales controlados y, principalmente, en contextos de crowdsourcing han sido poco estudiados. El propósito de este trabajo es por tanto emplear simulaciones para explorar la dinámica de opiniones dentro de un entorno de participación controlado (una plataforma de crowdsourcing), utilizando modelos específicos que buscan identificar consensos y disensos en una comunidad, bajo una conceptualización de agentes inspirada en evidencias empíricas de psicología y ciencias del comportamiento de manera más general, lo cual permitirá representar de mejor manera la conducta real. El objetivo de estas simulaciones es generar predicciones cuantitativas y cualitativas que puedan ser exploradas empíricamente a posteriori, con la implementación de plataformas de las mismas características en un contexto experimental.
-
-
-Objetivos
   Se pretende explorar la dinámica de opiniones y votos en el contexto de una plataforma de CrowdSourcing, para generar predicciones cuantitativas y cualitativas que puedan ser exploradas empíricamente. 
-
 
 Diseño
   Se realizará una simulación basada en objetos, específicamente basada en agentes, implementada en Python, la cual tiene un carácter exploratorio, para generar predicciones cuantitativas y cualitativas con la finalidad de desarrollo teórico.
