@@ -24,7 +24,9 @@
   La conducta de votación negativa funciona de manera análoga con la única diferencia que no se toma la inversa de la distancia, es decir Pi(Oj)=Di,jkDi,j y por tanto la probabilidad es proporcional a la distancia Pi(Oj)∝Di,j donde Pi(Oj) es la probabilidad del agente i-ésimo de votar negativamente la idea j. 
  
   La selección de opiniones que se le van a mostrar al agente i-ésimo conforman el conjunto Git  y están dadas por un algoritmo de selección de opiniones. Sean v(Oj) la cantidad de visualizaciones de la j-ésima opinión y Vt el subconjunto de opiniones con el mínimo valor de visualizaciones donde |V|[k,N], el algoritmo elige en primer lugar 2k ideas seleccionando Oi cuando v(Oi)<v(Oj) o seleccionando Oi con probabilidad 1|V| cuando v(Oi)=v(Oj). Sea Mt el subconjunto de n opiniones con el máximo ratio de votos sobre visualizaciones  m(Oi)v(Oi), siendo m(Oi) la cantidad de votos positivos de la i-ésima opinión o la diferencia entre los votos positivos y los votos negativos dependiendo de si en una determinada iteración la plataforma posee votos negativos, la otra mitad de las opiniones son seleccionadas tomando las k2 opiniones con el mayor ratio de votos visualizaciones del conjunto M, eligiendo Oi cuando m(Oi)<m(Oj) y eligiendo Oi con probabilidad 1|M| cuando m(Oi)=m(Oj), donde n =|M| está dado por una función partida  .
-Dado lo anterior, las variables que se van a manipular entonces están resumidas en la Tabla 1. 
+Dado lo anterior, las variables que se van a manipular entonces están resumidas en la Tabla 1.
+
+
 ![image](https://user-images.githubusercontent.com/92797786/174832548-dc348185-3223-46a7-ab13-344f98d17fac.png)
 
   Dado que la votación es el principal resultado de la simulación y el mecanismo fundamental para discriminar la calidad de distintos aportes y representar el espacio de opiniones según la conducta observada, la variable principal que este estudio se propone medir es la cantidad de votos realizados sobre las opiniones generadas en una simulación basada en agentes. A partir de esta variable, se explorará cada variación de la plataforma para examinar:
